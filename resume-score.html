@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ATS Resume Scorer</title>
+  <link rel="stylesheet" href="resume-score.css" />
+</head>
+<body>
+  <div class="upload-box">
+    <form id="resumeForm" enctype="multipart/form-data">
+      <div class="upload-area">
+        <div class="upload-icon">⬆️</div>
+        <strong>Select a file or drag and drop here</strong>
+        <p>PDF file size no more than 20MB</p>
+        <input type="file" id="resumeInput" name="resume" accept=".pdf" hidden />
+        <label for="resumeInput" class="upload-btn">⬆ Upload Resume</label>
+        <button type="submit" class="get-score-btn">🎯 Show ATS Score</button>
+      </div>
+    </form>
+
+    <div class="score-box" id="scoreResult"></div>
+   
+
+    <div class="nav-buttons">
+      <button class="nav home" onclick="goHome()">🏠 Home</button>
+    </div>
+  </div>
+
+  <script src="resume-score.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f8fb;
+  }
+  
+  .plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .plan-card {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    width: 320px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  }
+  
+  .plan-header {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    background: #e0e0e0;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .pro-badge {
+    background-color: #f5b642;
+    color: black;
+  }
+  
+  h2 {
+    margin: 10px 0 0;
+    font-size: 32px;
+  }
+  
+  .per {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .duration {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  ul li {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .select-btn {
+    margin-top: 20px;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .select-btn.green {
+    background-color: #00c389;
+  }
+  
+  .pro-tabs {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .pro-tabs span {
+    padding: 5px 10px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pro-tabs .active {
+    background: #d3f3e7;
+    color: #008060;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CvBot Resume Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+          <div class="logo">CvBot</div>
+          <ul class="nav-links">
+            <li><a href="resume-score.html">Features</a></li>
+
+            <li><a href="premium.html">Premium</a></li>
+            <li><a href="templates.html">Templates</a></li>
+          </ul>
+          <button class="login-btn" onclick="openLoginModal()">Login for Premium Access</button>
+        </div>
+      </nav>
+      
+      <!-- Login Popup Modal -->
+      <div id="loginModal" class="popup-overlay" style="display: none;">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closeLoginModal()">✕</span>
+      
+          <!-- From Uiverse.io by JohnnyCSilva -->
+          <form class="form">
+            <div class="flex-column">
+              <label>Email </label>
+            </div>
+            <div class="inputForm">
+              <input placeholder="Enter your Email" class="input" type="text" />
+            </div>
+      
+            <div class="flex-column">
+              <label>Password </label>
+            </div>
+            <div class="inputForm">
+              <input placeholder="Enter your Password" class="input" type="password" />
+            </div>
+      
+            <div class="flex-row">
+              <div>
+                <input type="radio" />
+                <label>Remember me </label>
+              </div>
+              <span class="span">Forgot password?</span>
+            </div>
+      
+            <button class="button-submit" type="submit">Sign In</button>
+            <p class="p">Don't have an account? <span class="span">Sign Up</span></p>
+            <p class="p line">Or With</p>
+      
+            <div class="flex-row">
+              <button class="btn google">Google</button>
+              <button class="btn apple">Apple</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <!-- JS to control popup -->
+      <script>
+        function openLoginModal() {
+          document.getElementById("loginModal").style.display = "flex";
+        }
+      
+        function closeLoginModal() {
+          document.getElementById("loginModal").style.display = "none";
+        }
+      
+        // Optional: Close when clicking outside the modal
+        window.onclick = function (event) {
+          const modal = document.getElementById("loginModal");
+          if (event.target === modal) {
+            modal.style.display = "none";
+          }
+        };
+      </script>
+      
+<!-- Login Modal -->
+
+  
+    </div>
+  </nav>
+  
+  <div class="main-container">
+    <div class="left-section">
+      <h1><span class="highlight">CvBot Resume Builder</span><br> helps you get hired at top companies</h1>
+
+      <div class="button-group">
+        <div class="button-group">
+            <a href="resume.pdf" download class="btn-pink">Download Resume Template</a>
+            <a href="resume-score.html">
+              <button class="btn-outline">Get Your Resume Score</button>
+            </a>
+            
+            
+          </div>
+          
+      </div>
+
+      <div class="reviews">
+        <span>Excellent</span>
+        <span class="stars">⭐⭐⭐⭐⭐</span>
+        <span>4,662 Reviews</span>
+      </div>
+
+      <p class="bottom-text"></p>
+    </div>
+
+    <div class="right-section">
+      <img src="resume1.png" alt="Resume Image" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+ 
+<!-- Simple Wave Transition Divider -->
+
+  
+  
+  
+  <!-- ATS Resume Scan Section -->
+<section class="ats-section">
+    <div class="ats-content">
+      <div class="ats-image">
+        <img src="resume2.png" alt="ATS Resume Scan" />
+      </div>
+      <div class="ats-text">
+        <h2>Get a free ATS resume scan, powered by <br><span class="highlight-text">Artificial Intelligence</span></h2>
+        <p>
+          Companies often receive hundreds of resumes for every job posting they put out.
+          They and their hiring managers don't have the time to go through each resume
+          individually, so they use software, often called Applicant Tracking Systems (ATS),
+          to filter through all the resumes they receive.
+        </p>
+        <p>
+          You need to make sure your resume is read correctly by these ATS and resume
+          screening software. If it is not, your resume could get instantly rejected by
+          these systems and never make its way to a recruiter or hiring manager.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Third Section: Unlimited ATS Resume Scans -->
+
+<!-- Third Section: Unlimited ATS resume scans -->
+<section class="ats-scan-section">
+    <div class="ats-scan-container">
+      <!-- Text Left -->
+      <div class="ats-scan-text">
+        <h2><span>Unlimited ATS resume scans</span></h2>
+        <p>
+          You get several free uploads to our resume scanner. If you have different versions of your resumes (and you should, especially if you are applying to different industries!), you can test each of your resumes through our resume scanner.
+        </p>
+        <p>
+          This allows you to evaluate all versions of your resume for not only ATS friendliness, but also other key criteria (like impact, hard skills and core competencies), to make sure you get as many interviews as possible.
+        </p>
+        <p>
+          To get started, upload your resume in PDF. If you're wondering if PDFs can be read by ATS, the answer is yes! Unless specified, always use PDF. All ATS can read them perfectly as long as you stick to the guidelines we've outlined above — i.e. ensure your resume is not a scan, is not an image and uses standard formatting.
+        </p>
+      </div>
+  
+      <!-- Image Right -->
+      <div class="ats-scan-image">
+        <img src="resume3.png" alt="Resume Preview">
+      </div>
+    </div>
+  </section>
+  <!-- Fourth Section: Free Resume Scanner Info -->
+<section class="resume-scanner-section">
+    <div class="scanner-container">
+      <h2>An effective free resume scanner</h2>
+      <ul>
+        <li>
+          <strong>Whether you have a scannable resume</strong>: Find out if your resume will be scanned correctly by an applicant tracking system. Are your achievements read correctly? Find out instantly.
+        </li>
+        <li>
+          <strong>Your ATS readability</strong>: Check that your work experience and skills are identified correctly. Note that if your work experience isn't detected correctly, an ATS may auto-flag you as unemployed — you want to avoid this since you might automatically get rejected.
+        </li>
+        <li>
+          <strong>How well your resume matches the job description</strong>: You will be given a resume score, which will help you understand if your resume covers all the right keywords and recruiter checks.
+          <br><br>
+          You'll also get access to our advanced AI resume writer, which will enhance your resume's existing content and turn it into professional content you can use on your resume. You'll never have to ever ask, "Is my resume good enough?". You'll know it is.
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Fifth Section: ATS Compliance Tips -->
+<section class="ats-compliance-section">
+    <div class="ats-compliance-container">
+      <h2>How do I make sure my resume is ATS-compliant?</h2>
+      <p class="ats-subtitle">
+        Here are some guidelines you should follow to ensure your resume gets correctly scanned by all applicant tracking systems.
+      </p>
+  
+      <div class="ats-compliance-box">
+        <p><strong>Use standard section titles:</strong> Label your work experience and education sections with conventional section titles. For example, use "Professional Experience" instead of "My career in a nutshell".</p>
+        
+        <p><strong>Use standard fonts:</strong> Some newer fonts convert letters to special characters which often get scanned incorrectly by ATS. Where possible, stick to a standard font (Garamond, Arial, Calibri).</p>
+  
+        <p><strong>Single-column layouts:</strong> Modern ATS are better at scanning multi-column layouts, but some still struggle. Stick to single-column for safest parsing.</p>
+  
+        <p><strong>No tables:</strong> Tables rarely get parsed correctly. Use tabs and right/left aligns instead.</p>
+  
+        <p><strong>No scanned documents, pictures or diagrams:</strong> Text must be highlightable and readable. Avoid pie charts, graphs, or scanned PDFs.</p>
+      </div>
+    </div>
+  </section>
+  <section class="review-section">
+    <h2>What People Are Saying About Our Website</h2>
+    <div class="scroller-container">
+      <div class="scroller">
+        <div class="scroller-track">
+          <!-- Cards Set 1 -->
+          <div class="card">
+            <p class="quote">
+              ⭐⭐⭐⭐⭐
+              "Super helpful and easy to use!"
+      
+            </p>
+            <p class="author">— Bidu.</p>
+          </div>
+          <div class="card">
+            <p class="quote">
+              ⭐⭐⭐⭐☆
+              "Got my resume score in seconds!"
+              
+            </p>
+            <p class="author">— Tushkar.</p>
+          </div>
+          <div class="card">
+            <p class="quote">
+              ⭐⭐⭐⭐⭐
+"This site saved me hours!"
+
+            </p>
+            <p class="author">— Bishal</p>
+          </div>
+          <div class="card">
+            <p class="quote">
+              ⭐⭐⭐⭐☆
+"Love the clean design."
+
+            </p>
+            <p class="author">— Aveek</p>
+          </div>
+          <div class="card">
+            <p class="quote">
+              ⭐⭐⭐⭐⭐
+"Interview calls increased after I improved my resume!"
+
+            </p>
+            <p class="author">— Shubrajit</p>
+          </div>
+
+          <!-- Duplicate Set for Seamless Loop -->
+          <div class="card">
+            <p class="quote">
+              ⭐⭐⭐⭐☆
+"Useful and beginner-friendly."
+
+            </p>
+            <p class="author">— Sharanya</p>
+          </div>
+          <div class="card">
+            <p class="quote">
+              ⭐⭐⭐⭐⭐
+"Impressed by the accuracy of the score!"
+
+            </p>
+            <p class="author">— Suman</p>
+          </div>
+          <div class="card">
+            <p class="quote">
+              ⭐⭐⭐⭐☆
+"The feedback was spot on."
+
+            </p>
+            <p class="author">— Nishan</p>
+          </div>
+          <div class="card">
+            <p class="quote">
+              ⭐⭐⭐⭐⭐
+"Perfect tool for freshers like me!"
+
+            </p>
+            <p class="author">— Anurup</p>
+          </div>
+          <div class="card">
+            <p class="quote">
+              ⭐⭐⭐⭐☆
+              "My HR even appreciated my improved resume."
+              
+            </p>
+            <p class="author"> — Gourab</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <img src="resume4.png" alt="Facebook" class="footer-icon" />
+      
+      <img src="resume5.png" alt="instagram" class="footer-icon" />
+      <img src="resume6.png" alt="linkedin" class="footer-icon" />
+    </div>
+    <div class="footer-right">
+      <p>Made with love 💚 © 2025.</p>
+    </div>
+  </div>
+</footer>
+
+  
+  
+  
+  
+</body>
+</html>

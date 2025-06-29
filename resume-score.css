@@ -1,0 +1,82 @@
+body {
+    background: #000;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .upload-box {
+    background: #1f1f1f;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 600px;
+  }
+  
+  .upload-area {
+    border: 2px dashed #555;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .upload-icon {
+    font-size: 40px;
+  }
+  
+  .upload-btn, .get-score-btn {
+    background-color: #a259ff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .upload-btn:hover, .get-score-btn:hover {
+    background-color: #b27aff;
+  }
+  
+  .score-box {
+    background: #4a1768;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  .history-box {
+    margin-top: 25px;
+    padding: 15px;
+    background: #2a2a2a;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .history-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .history-box li {
+    padding: 5px 0;
+    border-bottom: 1px solid #444;
+  }
+  
+  .nav-buttons {
+    margin-top: 20px;
+  }
+  
+  .nav.home {
+    background: #fff;
+    color: #a259ff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
